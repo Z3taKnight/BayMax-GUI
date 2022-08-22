@@ -1,4 +1,3 @@
-from json import load
 import sys
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtCore import QTimer, QTime, QDate, QtMsgType
@@ -10,34 +9,6 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtWidgets import QSplashScreen
 from PyQt5.uic import loadUiType, loadUi
 from frontend import Ui_MainWindow
-from binascii import rlecode_hqx
-from cgitb import text
-from email import message
-from email.mime import audio
-from fileinput import filename
-import os
-from time import sleep
-from turtle import done
-from unittest import skip
-from neuralintents import GenericAssistant
-from pyparsing import null_debug_action
-import speech_recognition as sr
-import pyttsx3 as tts
-import sys
-import pywhatkit
-import webbrowser
-from gtts import gTTS
-import playsound
-import re
-import random
-import pyjokes
-import wikipedia
-from socket import timeout
-import time
-import schedule
-from matplotlib.pyplot import title
-from plyer import notification
-import requests
 
 class MainThread(QThread):
     def __init__(self):
