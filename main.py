@@ -1,13 +1,12 @@
 import sys
-from PyQt5 import QtWidgets, QtCore, QtGui
-from PyQt5.QtCore import QTimer, QTime, QDate, QtMsgType
-from PyQt5.QtGui import QMovie
+import requests
+from PyQt5 import QtGui
+from PyQt5.QtCore import QTimer, QTime, QDate
 from PyQt5.QtCore import *
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtWidgets import QSplashScreen
-from PyQt5.uic import loadUiType, loadUi
 from frontend import Ui_MainWindow
 
 class MainThread(QThread):
