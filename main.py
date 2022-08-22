@@ -10,7 +10,6 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtWidgets import QSplashScreen
 from PyQt5.uic import loadUiType, loadUi
 from frontend import Ui_MainWindow
-from loading import Ui_loading
 from binascii import rlecode_hqx
 from cgitb import text
 from email import message
